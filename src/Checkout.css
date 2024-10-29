@@ -1,0 +1,144 @@
+
+.checkout-page .header {
+
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+
+.checkout-page .home-button {
+  background-color: #5500df;  
+
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  box-shadow: 0px 4px 10px black;
+  border-radius: 5px;
+}
+
+.checkout-page .home-button:hover {
+  background-color:  #4804b6;
+}
+
+.checkout-page .cart {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.checkout-page .cart-item {
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.checkout-page .cart-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.checkout-page .total {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.checkout-page .rnd-shdw {
+  box-shadow: 0px 4px 10px black;
+  border-radius: 5px;
+}
+
+.checkout-page button.button-style {
+  background-color: #5500df;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0px 4px 10px black;
+  border-radius: 5px;
+}
+
+.checkout-page button.button-style2 {
+  background-color: #5500df;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 0px 4px 10px black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.checkout-page .button-style:hover {
+  background-color:  #4804b6;
+}
+
+.checkout-page .button-style2:hover {
+  background-color:  #4804b6;
+}
+
+.checkout-page .form-labels {
+  box-shadow: 0px 4px 10px black;
+  border-radius: 5px;
+  background-color: #5500df;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color:black;
+}
+
+.checkout-page .Text-style {
+  font-size: 20px;
+  font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+}
+
+
+.checkout-page .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.checkout-page .form-group label {
+  width: 30%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-page .form-group input {
+  width: 65%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.checkout-page div {
+  width: fit-content;
+  height: fit-content;
+  margin: 2%;
+  padding: 2%;
+}
+
+.checkout-page h1, .checkout-page h2, .checkout-page h3 {
+  margin: 0; /* Reset margin to prevent global styles from applying */
+}
+
